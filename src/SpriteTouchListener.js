@@ -4,7 +4,7 @@ export default class SpriteTouchListener extends Listener {
     constructor(sprite, recogonizers, useCapture = false){
         super(recogonizers);
         let start = event => {
-            console.log(event);
+            
             var pointer = new Object;
             pointer.x = event.x;
             pointer.y = event.y;

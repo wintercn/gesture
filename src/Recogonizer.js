@@ -1,5 +1,5 @@
 export default class Recogonizer {
-    constructor(consumer, DPR) {
+    constructor(consumer, DPR = 1) {
         this.consumer = consumer;
         this.DPR = DPR;
     }
